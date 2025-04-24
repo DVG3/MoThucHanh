@@ -53,7 +53,7 @@
 41. Màng sụn
 42. Màng xương
 43. Tủy xương
-44. Tế bào sụn
+44. TB sụn
 45. Tạo cốt bào
 46. Cốt bào
 47. Hủy cốt bào
@@ -76,13 +76,13 @@
 75. Rãnh giữa trước
 76. Khe giữa sau
 77. Nơ ron vận động
-78. Tế bào thần kinh đệm
-79. Tế bào biểu mô nội tủy
+78. TB thần kinh đệm
+79. TB biểu mô nội tủy
 @ 80. Tiểu não
 81. Lớp phân tử
-82. Lớp tế bào Purkinje
+82. Lớp TB Purkinje
 83. Lớp hạt (tiểu não)
-84. Tế bào Purkinje
+84. TB Purkinje
 @ 93. Hạch
 94. Vỏ xơ
 95. Vách xơ
@@ -90,7 +90,7 @@
 97. Nang lympho (Vùng vỏ)
 98. Vùng cận vỏ
 99. Vùng tủy
-105. Tế bào lymphô
+105. TB lymphô
 106. Tương bào
 100. Dây tủy
 101. Mạch bạch huyết đến

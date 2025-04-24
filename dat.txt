@@ -29,7 +29,7 @@
 25. TB sợi
 26. Nguyên bào sợi
 28. TB mỡ
-32. Tế bào nội mô
+32. TB nội mô
 58. Chân bì
 59. Hạ bì
 60. Nhú biểu bì(Mào thượng bì)

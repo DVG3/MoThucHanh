@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Tra cứu cấu trúc giải phẫu</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 p-8">
+  <div class="max-w-xl mx-auto">
+    <h1 class="text-2xl font-bold mb-4">Tìm kiếm</h1>
+    <input id="searchBox" type="text" placeholder="Nhập tên cấu trúc..." class="w-full p-3 border border-gray-300 rounded-xl focus:outline-none focus:ring focus:ring-blue-300">
+    <ul id="suggestions" class="mt-4 space-y-2"></ul>
+  </div>
+
+  <script>
+    let data = {};
+    const searchBox = document.getElementById("searchBox");
+    const suggestions = document.getElementById("suggestions");
+
+    fetch("dat.json")
+      .then(response => response.json())
+      .then(json => {
+        data = json;
+      });
+
+    searchBox.addEventListener("input", () => {
+      const query = searchBox.value.toLowerCase();
+      suggestions.innerHTML = "";
+      if (!query) return;
+    
+      if (query.startsWith("#")) {
+        const organName = query.slice(1); // bỏ dấu #
+        for (const [coquan, structures] of Object.entries(data)) {
+          if (coquan.toLowerCase().includes(organName)) {
+            for (const [so, value] of Object.entries(structures)) {
+            console.log(value)
+            const cautruc = Object.keys(value)[0]
+            const id = value[cautruc]
+              const item = document.createElement("li");
+              item.className = "bg-white p-3 rounded-lg shadow hover:bg-gray-100";
+              item.textContent = `Cơ quan ${coquan}, cấu trúc ${cautruc}, ${id}`;
+              suggestions.appendChild(item);
+            }
+          }
+        }
+      }
+
+      for (const [coquan, structures] of Object.entries(data)) {
+          for (const [so, value] of Object.entries(structures)) {
+            console.log(value)
+            const cautruc = Object.keys(value)[0]
+            const id = value[cautruc]
+          if (cautruc.toLowerCase().includes(query)) {
+            const item = document.createElement("li");
+            item.className = "bg-white p-3 rounded-lg shadow hover:bg-gray-100";
+            item.textContent = `${cautruc}, ${id}`;
+            suggestions.appendChild(item);
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>

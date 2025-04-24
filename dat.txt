@@ -1,0 +1,104 @@
+@ 1. Thận
+2. BM lát đơn
+3. BM vuông đơn
+4. BM trụ đơn
+@ 5. Khí quản
+6. BM trụ giả tầng có lông chuyển
+7. TB đáy
+8. TB đài
+9. TB trụ có lông chuyển
+@ 10. Thực quản
+11. BM lát tầng không sừng
+12. Lớp đáy (Thực quản)
+13. Lớp trung gian
+14. Lớp bề mặt
+@ 15. Da
+16. BM Lát tầng có sừng (Biểu bì)
+17. Lớp đáy (Da)
+18. Lớp gai
+19. Lớp hạt
+20. Lớp bóng
+21. Lớp sừng
+24. Mô liên kết sợi
+27. Mô mỡ
+29. Động mạch
+30. Tĩnh mạch
+31. Mao mạch
+22. TB gai
+23. TB hạt
+25. TB sợi
+26. Nguyên bào sợi
+28. TB mỡ
+32. Tế bào nội mô
+58. Chân bì
+59. Hạ bì
+60. Nhú biểu bì(Mào thượng bì)
+61. Nhú chân bì(Nhú bì)
+62. Tiểu thể thần kinh Meissner
+63. Tiểu thể thần kinh Pacini
+64. Tiểu cầu mồ hôi
+65. Nang lông
+66. Tuyến bã
+67. Sợi thần kinh
+68. Bó thần kinh
+69. Dây thần kinh
+@ 33. Xương
+34. Đỉa sụn nối
+35. Sụn trong
+36. Sụn xếp hàng
+37. Sụn phì đại ngấm canxi
+38. Vùng cốt hóa
+39. Xương trong sụn
+40. Xương cốt mạc
+41. Màng sụn
+42. Màng xương
+43. Tủy xương
+44. Tế bào sụn
+45. Tạo cốt bào
+46. Cốt bào
+47. Hủy cốt bào
+48. Đại bào
+@ 49. Lưỡi
+50. Cơ vân cắt dọc
+51. Cơ vân cắt ngang
+@ 5. Khí quản
+52. Cơ trơn cắt dọc
+53. Cơ trơn cắt ngang
+@ 54. Tim
+55. Cơ tim cắt dọc
+56. Cơ tim cắt ngang
+57. Vạch bậc thang
+@ 70. Tủy sống
+71. Chất trắng
+72. Chất xám (Sừng trước)
+73. Chất xám (Sừng sau)
+74. Ống nội tủy (Ống trung tâm)
+75. Rãnh giữa trước
+76. Khe giữa sau
+77. Nơ ron vận động
+78. Tế bào thần kinh đệm
+79. Tế bào biểu mô nội tủy
+@ 80. Tiểu não
+81. Lớp phân tử
+82. Lớp tế bào Purkinje
+83. Lớp hạt (tiểu não)
+84. Tế bào Purkinje
+@ 93. Hạch
+94. Vỏ xơ
+95. Vách xơ
+96. Dây xơ
+97. Nang lympho (Vùng vỏ)
+98. Vùng cận vỏ
+99. Vùng tủy
+105. Tế bào lymphô
+106. Tương bào
+100. Dây tủy
+101. Mạch bạch huyết đến
+102. Xoang dưới vỏ
+103. Xoang quanh nang
+104. Xoang tủy
+@ 107. Lách
+108. Tủy trắng
+109. Động mạch trung tâm
+110. Tủy đỏ
+111. Dây Billroth

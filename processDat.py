@@ -7,7 +7,7 @@ with open("dat.txt","r",encoding="utf-8") as f:
         if line[0] == '@':
             coquan = ' '.join(line.split(' ')[2:]).strip('\n')
             print(coquan)
-            coquan_data[coquan] = []
+            if not coquan_data.get(coquan): coquan_data[coquan]  = []
             line = line[2:]
             print(line)
             num = line.split(' ')[0][:-1]
@@ -25,4 +25,4 @@ with open("dat.txt","r",encoding="utf-8") as f:
 coquan_data_text = json.dumps(coquan_data)
 with open("dat.json","w",encoding="utf-8") as f:
     f.write(coquan_data_text)
-        
+print(coquan_data)   

@@ -38,12 +38,12 @@
             const id = value[cautruc]
               const item = document.createElement("li");
               item.className = "bg-white p-3 rounded-lg shadow hover:bg-gray-100";
-              item.textContent = `Cơ quan ${coquan}, cấu trúc ${cautruc}, ${id}`;
+              item.textContent = `Cơ quan ${coquan}, ${cautruc}, ${id}`;
               suggestions.appendChild(item);
             }
           }
         }
-      }
+      } else
 
       for (const [coquan, structures] of Object.entries(data)) {
           for (const [so, value] of Object.entries(structures)) {
